@@ -10,7 +10,7 @@ env:
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: f737f858-8b37-4cde-b317-6a763cec48c8
   WEBAPP-NAME: eshoponweb-webapp-Rami
-
+  
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
